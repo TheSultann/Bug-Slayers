@@ -1,0 +1,97 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bug Slayers" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Bug Slayers
+      - navigation "Asosiy navigatsiya" [ref=e8]:
+        - link "Muammo" [ref=e9] [cursor=pointer]:
+          - /url: /#muammo
+        - link "Jamoa" [ref=e10] [cursor=pointer]:
+          - /url: /#jamoa
+        - link "Nega biz" [ref=e11] [cursor=pointer]:
+          - /url: /#nega-biz
+        - link "Yo'l xaritasi" [ref=e12] [cursor=pointer]:
+          - /url: /#yol-xaritasi
+        - link "Reja" [ref=e13] [cursor=pointer]:
+          - /url: /#amalga-oshirish
+        - link "Demo" [ref=e14] [cursor=pointer]:
+          - /url: /demo
+      - link "Bog'lanish" [ref=e16] [cursor=pointer]:
+        - /url: mailto:hello@bugslayers.uz
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Demo / vaqtinchalik kontent
+        - paragraph [ref=e23]: 06 / Demo sahifasi
+        - heading "Product imkoniyatlarini bitta sahifada ko'rsatadigan demo markaz" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Bu yerda demo-video, qisqa tavsif, interaktiv prototip havolasi, AI-chatbot preview va API kirish uchun namunaviy bloklar jamlangan.
+      - article [ref=e26]:
+        - paragraph [ref=e27]: Demo snapshot
+        - heading "Investor, mentor yoki mijoz uchun tez ko'rinadigan taqdimot" [level=2] [ref=e28]
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - generic [ref=e32]: Qisqa video va muammo-yechim konteksti
+          - listitem [ref=e33]:
+            - generic [ref=e35]: Prototip linki va product qamrovi
+          - listitem [ref=e36]:
+            - generic [ref=e38]: API va AI chatbot preview orqali texnik daraja
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: Demo-video
+          - strong [ref=e45]: Placeholder video embed
+        - generic [ref=e46]: 1-5 daqiqalik real video bilan almashtiriladi
+      - iframe [ref=e48]:
+        
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - article [ref=e52]:
+          - paragraph [ref=e53]: 6.2 / Demo videoning tavsifi
+          - heading "Demo nimani ko'rsatadi" [level=2] [ref=e54]
+          - paragraph [ref=e55]: "Ushbu vaqtinchalik tavsif productning asosiy oqimini tushuntiradi: foydalanuvchi kiradi, muammoni tanlaydi, AI qatlam ishga tushadi va natija dashboard yoki javob ko'rinishida qaytadi."
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - generic [ref=e59]: Asosiy user flow va interface mantiqi ko'rsatiladi.
+            - listitem [ref=e60]:
+              - generic [ref=e62]: AI yordamida javob berish, tahlil qilish yoki tavsiya berish ssenariysi namoyish etiladi.
+            - listitem [ref=e63]:
+              - generic [ref=e65]: Product qayerga kengayishi mumkinligi va API ulanish nuqtalari tushuntiriladi.
+        - article [ref=e66]:
+          - paragraph [ref=e67]: API Access
+          - heading "Texnik ko'rinish uchun namunaviy endpoint" [level=2] [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: POST /api/v1/analyze
+            - generic [ref=e71]: "curl -X POST https://api.bugslayers.uz/api/v1/analyze \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{\"message\":\"Mijoz support oqimini tahlil qil\"}'"
+      - complementary [ref=e72]:
+        - link "6.3 / Ishlayotgan prototip Interaktiv konseptni ochish Hozircha vaqtinchalik havola sifatida Stitch dizayn loyihasi ulandi. Keyin uni real product prototipi bilan almashtirasiz. Prototipga o'tish" [ref=e73] [cursor=pointer]:
+          - /url: https://stitch.withgoogle.com/projects/4022772081421735983
+          - paragraph [ref=e74]: 6.3 / Ishlayotgan prototip
+          - heading "Interaktiv konseptni ochish" [level=2] [ref=e75]
+          - paragraph [ref=e76]: Hozircha vaqtinchalik havola sifatida Stitch dizayn loyihasi ulandi. Keyin uni real product prototipi bilan almashtirasiz.
+          - generic [ref=e77]: Prototipga o'tish
+        - article [ref=e78]:
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: AI Chatbot
+            - strong [ref=e82]: Qo'shimcha demo modul
+          - generic [ref=e84]:
+            - generic [ref=e85]: Assalomu alaykum. Demo sahifasiga xush kelibsiz. Qaysi use-case sizni ko'proq qiziqtiradi?
+            - generic [ref=e86]: Bu yechim mijoz supportini tezlashtira oladimi?
+            - generic [ref=e87]: Ha. AI yordamida birinchi javob, kategoriyalash va prioritetlash jarayonlarini avtomatlashtirish mumkin.
+          - generic [ref=e88]:
+            - generic [ref=e89]: Savol yozing...
+            - button "Yuborish" [ref=e90] [cursor=pointer]
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: Bug Slayers
+        - paragraph [ref=e95]: Vaqtinchalik demo tarkib. Keyin real kontent bilan almashtiriladi.
+      - generic [ref=e96]:
+        - link "Telegram" [ref=e97] [cursor=pointer]:
+          - /url: https://t.me/
+        - link "LinkedIn" [ref=e98] [cursor=pointer]:
+          - /url: https://linkedin.com/
+        - link "GitHub" [ref=e99] [cursor=pointer]:
+          - /url: https://github.com/
+        - link "Demo" [ref=e100] [cursor=pointer]:
+          - /url: /demo

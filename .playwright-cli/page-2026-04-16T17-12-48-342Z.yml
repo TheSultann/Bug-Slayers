@@ -1,0 +1,336 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bug Slayers SafeChain Platform" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]:
+          - strong [ref=e8]: Bug Slayers
+          - generic [ref=e9]: SafeChain Platform
+      - navigation "Asosiy navigatsiya" [ref=e10]:
+        - link "Muammo" [ref=e11] [cursor=pointer]:
+          - /url: /#muammo
+        - link "Jamoa" [ref=e12] [cursor=pointer]:
+          - /url: /#jamoa
+        - link "Nega biz" [ref=e13] [cursor=pointer]:
+          - /url: /#nega-biz
+        - link "Yo'l xaritasi" [ref=e14] [cursor=pointer]:
+          - /url: /#yol-xaritasi
+        - link "Reja" [ref=e15] [cursor=pointer]:
+          - /url: /#amalga-oshirish
+        - link "Demo" [ref=e16] [cursor=pointer]:
+          - /url: /demo
+      - link "Aloqa" [ref=e18] [cursor=pointer]:
+        - /url: mailto:hello@bugslayers.uz
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: SafeChain nazorat platformasi
+        - paragraph [ref=e25]: BUG SLAYERS / RETAIL CONTROL / AI SIGNALS
+        - heading "Xavfni kech emas, sotuv nuqtasida to'xtatamiz" [level=1] [ref=e26]:
+          - text: Xavfni kech emas,
+          - generic [ref=e27]: sotuv nuqtasida to'xtatamiz
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: Bug Slayers jamoasi SafeChain orqali importdan kassagacha bo'lgan nazorat zanjirini bitta panelga yig'adi.
+          - paragraph [ref=e30]: Natijada muddati o'tgan mahsulot va yashirin savdo signallari real vaqtning o'zida ko'rinadi.
+        - generic [ref=e31]:
+          - link "Demo markaziga o'tish" [ref=e32] [cursor=pointer]:
+            - /url: /demo
+          - link "Rejani ko'rish" [ref=e33] [cursor=pointer]:
+            - /url: "#amalga-oshirish"
+        - generic [ref=e34]:
+          - generic [ref=e35]: Retail compliance
+          - generic [ref=e36]: Realtime control
+          - generic [ref=e37]: AI anomaly review
+      - article [ref=e39]:
+        - paragraph [ref=e40]: Control fabric
+        - heading "SafeChain savdo xavfini real vaqtida boshqaradi" [level=2] [ref=e41]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: Ma'lumot oqimi, AI signal va operatsion javob bir joyga yig'ilganda nazorat kechikmaydi.
+          - paragraph [ref=e44]: Shu sabab sayt ham product kabi aniq, qatlamli va ishonchli ko'rinishi kerak.
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Tracking layer
+            - strong [ref=e48]: Import -> Ombor -> Kassa
+          - generic [ref=e49]:
+            - generic [ref=e50]: Risk response
+            - strong [ref=e51]: Muddati o'tgan mahsulot sotuvi darhol bloklanadi
+          - generic [ref=e52]:
+            - generic [ref=e53]: AI review
+            - strong [ref=e54]: Kirim-chiqim solishtiriladi, yashirin oqimlar flag qilinadi
+          - generic [ref=e55]:
+            - generic [ref=e56]: Output
+            - strong [ref=e57]: Alert, audit trail va boshqaruv paneli
+      - generic [ref=e58]:
+        - article [ref=e59]:
+          - strong [ref=e60]: "03"
+          - generic [ref=e61]: Asosiy xavf qatlami
+          - paragraph [ref=e62]: Muddati o'tgan mahsulot, yashirin savdo, nazorat bo'shligi
+        - article [ref=e63]:
+          - strong [ref=e64]: 24/7
+          - generic [ref=e65]: Raqamli kuzatuv
+          - paragraph [ref=e66]: Import, ombor, harakat va kassa bo'yicha uzluksiz nazorat
+        - article [ref=e67]:
+          - strong [ref=e68]: AI
+          - generic [ref=e69]: Signal engine
+          - paragraph [ref=e70]: Anomaliya va xavfni avtomatik ajratib beradi
+      - article [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Realtime loop
+            - heading "3 qadamli nazorat konturi" [level=2] [ref=e75]
+          - generic [ref=e76]: Live
+        - generic [ref=e77]:
+          - article [ref=e78]:
+            - generic [ref=e79]: "01"
+            - generic [ref=e80]:
+              - heading "Ma'lumot oqimi yig'iladi" [level=3] [ref=e81]
+              - paragraph [ref=e82]: Import, ombor, savdo va tranzaksiya izlari bitta nazorat qatlamiga ulanadi.
+          - article [ref=e83]:
+            - generic [ref=e84]: "02"
+            - generic [ref=e85]:
+              - heading "AI signalni ajratadi" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Qaysi mahsulot yoki nuqtada xavf borligi qo'lda emas, model orqali topiladi.
+          - article [ref=e88]:
+            - generic [ref=e89]: "03"
+            - generic [ref=e90]:
+              - heading "Sotuv joyida javob beriladi" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Xavf aniqlansa tizim signal, blok yoki audit log ko'rinishida darhol javob qaytaradi.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - paragraph [ref=e96]: 01 / Muammo va yechim
+        - heading "Muammo aniq, yechim esa operatsion" [level=2] [ref=e97]
+        - generic [ref=e98]:
+          - paragraph [ref=e99]: Ko'p jamoa nazorat haqida gapiradi, lekin uni hisobot darajasida qoldiradi.
+          - paragraph [ref=e100]: SafeChain esa nazoratni savdo oqimining o'zida ishga tushiradi va qarorni kechiktirmaydi.
+      - generic [ref=e101]:
+        - article [ref=e102]:
+          - generic [ref=e103]: Muammo
+          - heading "Nazoratsiz savdo iste'molchi ishonchi va davlat tushumiga bir vaqtda zarba beradi" [level=3] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - generic [ref=e108]: Muddati o'tgan mahsulotlar baribir kassaga yetib boradi va bu to'g'ridan-to'g'ri salomatlik xavfi.
+            - listitem [ref=e109]:
+              - generic [ref=e111]: Savdoning bir qismi tizimdan tashqarida qolsa, real aylanma va real tushum bir-biriga to'g'ri kelmaydi.
+            - listitem [ref=e112]:
+              - generic [ref=e114]: Nazorat organlari ko'pincha muammo bo'lib o'tgandan keyin ko'radi, chunki real vaqt signal yo'q.
+        - article [ref=e115]:
+          - generic [ref=e116]: Yechim
+          - heading "SafeChain nazoratni hisobotdan olib chiqib, operatsiyaning ichiga joylaydi" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - generic [ref=e121]: Mahsulot muddati o'tgan bo'lsa, kassada sotuv avtomatik to'xtatiladi.
+            - listitem [ref=e122]:
+              - generic [ref=e124]: Raqamli zanjir mahsulotni importdan iste'molchigacha kuzatib, iz qoldiradi.
+            - listitem [ref=e125]:
+              - generic [ref=e127]: AI analitika kirim va chiqimdagi nomuvofiqlikni tez topib, yashirin savdo xavfini ko'rsatadi.
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: 02 / Jamoa
+        - heading "Core team" [level=2] [ref=e132]
+        - generic [ref=e133]:
+          - paragraph [ref=e134]: Professional ko'rinish faqat rang bilan bo'lmaydi. Kim nima qilishi ham sahifada aniq ko'rinishi kerak.
+          - paragraph [ref=e135]: Shu blok rol, stack va delivery javobgarligini birdan ko'rsatadi.
+      - generic [ref=e136]:
+        - article [ref=e137]:
+          - img "Azizbek Rahmonov" [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - heading "Azizbek Rahmonov" [level=3] [ref=e143]
+                - paragraph [ref=e144]: Team Lead
+              - generic [ref=e145]: Strategy
+            - paragraph [ref=e146]: Jamoa yo'nalishini boshqaradi, product qarorlarini bir tizimga yig'adi va texnik ijroni biznes maqsad bilan bog'lab turadi.
+            - generic [ref=e147]:
+              - generic [ref=e148]: Leadership
+              - generic [ref=e149]: Product Vision
+              - generic [ref=e150]: Strategy
+            - generic [ref=e151]:
+              - generic [ref=e152]: Stack
+              - strong [ref=e153]: Planning, Product Flow, Team Coordination
+            - generic [ref=e154]:
+              - link "GitHub" [ref=e155] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "LinkedIn" [ref=e156] [cursor=pointer]:
+                - /url: https://linkedin.com/
+        - article [ref=e157]:
+          - img "Sultan" [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Sultan" [level=3] [ref=e163]
+                - paragraph [ref=e164]: Frontend Engineer
+              - generic [ref=e165]: Build
+            - paragraph [ref=e166]: Frontend va product interfeys qismini olib boradi, dizaynni ishlaydigan React oqimiga aylantiradi va integratsiya qatlamini tayyorlaydi.
+            - generic [ref=e167]:
+              - generic [ref=e168]: React
+              - generic [ref=e169]: Frontend
+              - generic [ref=e170]: Integration
+            - generic [ref=e171]:
+              - generic [ref=e172]: Stack
+              - strong [ref=e173]: React, Vite, UI Logic, API Integration
+            - generic [ref=e174]:
+              - link "LinkedIn" [ref=e175] [cursor=pointer]:
+                - /url: https://linkedin.com/
+              - link "GitHub" [ref=e176] [cursor=pointer]:
+                - /url: https://github.com/
+        - article [ref=e177]:
+          - img "AI Specialist" [ref=e179]
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - heading "AI Specialist" [level=3] [ref=e183]
+                - paragraph [ref=e184]: Decision Intelligence
+              - generic [ref=e185]: AI
+            - paragraph [ref=e186]: Analitika va signal topish mexanizmlarini kuchaytiradi, xavfni aniqlash va prioritetlash mantiqini ishlab chiqadi.
+            - generic [ref=e187]:
+              - generic [ref=e188]: AI Logic
+              - generic [ref=e189]: Analytics
+              - generic [ref=e190]: Automation
+            - generic [ref=e191]:
+              - generic [ref=e192]: Stack
+              - strong [ref=e193]: Models, Data Flow, Risk Signals
+            - generic [ref=e194]:
+              - link "LinkedIn" [ref=e195] [cursor=pointer]:
+                - /url: https://linkedin.com/
+              - link "Portfolio" [ref=e196] [cursor=pointer]:
+                - /url: https://example.com/
+        - article [ref=e197]:
+          - img "Operations Lead" [ref=e199]
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - heading "Operations Lead" [level=3] [ref=e203]
+                - paragraph [ref=e204]: Delivery & Support
+              - generic [ref=e205]: Ops
+            - paragraph [ref=e206]: Jarayonlarni yig'adi, aloqa va operatsion tartibni ushlab turadi, test va rollout bosqichlarida jamoani tarqatib yubormaydi.
+            - generic [ref=e207]:
+              - generic [ref=e208]: Coordination
+              - generic [ref=e209]: Support
+              - generic [ref=e210]: Operations
+            - generic [ref=e211]:
+              - generic [ref=e212]: Stack
+              - strong [ref=e213]: Communication, QA, Workflow
+            - generic [ref=e214]:
+              - link "Telegram" [ref=e215] [cursor=pointer]:
+                - /url: https://t.me/
+              - link "Portfolio" [ref=e216] [cursor=pointer]:
+                - /url: https://example.com/
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - paragraph [ref=e220]: 03 / Nega biz
+        - heading "G'oya emas, product konturi" [level=2] [ref=e221]
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: Product fikri, nazorat logikasi va kod ijrosi bitta jamoada yig'ilsa tashqi ko'rinish ham ishonchli bo'ladi.
+          - paragraph [ref=e224]: Bu bo'lim aynan shu ichki tartibni ko'rsatadi.
+      - generic [ref=e225]:
+        - article [ref=e226]:
+          - paragraph [ref=e227]: Capability
+          - heading "Biz muammoni faqat ko'rsatmaymiz, operatsiyaning o'zida ushlaymiz" [level=3] [ref=e228]
+          - paragraph [ref=e229]: SafeChain nazoratni faqat hisobot yoki audit emas, aynan savdo jarayonining ichida ishlatadi. Farq ham shu yerda.
+        - article [ref=e230]:
+          - paragraph [ref=e231]: Capability
+          - heading "Jamoada product fikri, texnik ijro va nazorat logikasi bitta konturga yig'ilgan" [level=3] [ref=e232]
+          - paragraph [ref=e233]: Yo'nalish, frontend, AI va operatsion boshqaruv bir jamoada bo'lgani uchun yechim bo'linib ketmaydi va tezroq materiallashadi.
+        - article [ref=e234]:
+          - paragraph [ref=e235]: Capability
+          - heading "AI bilan yashirin savdo signallarini ko'ra olamiz" [level=3] [ref=e236]
+          - paragraph [ref=e237]: Kirim-chiqim, tranzaksiya va oqim nomuvofiqliklarini topish uchun kerakli texnik asos allaqachon aniq.
+        - article [ref=e238]:
+          - paragraph [ref=e239]: Capability
+          - heading "Prototype dan MVP gacha tez yuramiz" [level=3] [ref=e240]
+          - paragraph [ref=e241]: Biz g'oyani prezentatsiyada qoldirmaymiz. Dizayn, demo va ishlaydigan web qatlamini bir zanjirda chiqaramiz.
+    - generic [ref=e243]:
+      - generic [ref=e244]:
+        - paragraph [ref=e245]: 04 / Yo'l xaritasi
+        - heading "Idea dan launch gacha" [level=2] [ref=e246]
+        - generic [ref=e247]:
+          - paragraph [ref=e248]: Professional sayt faqat chiroyli ko'rinmasligi kerak. U keyingi bosqichni ham aniq ko'rsatishi shart.
+          - paragraph [ref=e249]: Shu yerda jamoa qaerda turgani va keyingi og'ir ish qayerda ekani ko'rinadi.
+      - generic [ref=e250]:
+        - article [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - heading "Idea" [level=3] [ref=e254]
+              - paragraph [ref=e255]: Muammo, foydalanuvchi va qiymat taklifi aniqlashtirildi.
+            - generic [ref=e256]: Tugallangan
+        - article [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - heading "Prototype" [level=3] [ref=e262]
+              - paragraph [ref=e263]: Asosiy oqimlar, vizual ekranlar va taqdimot sahifalari yig'ildi.
+            - generic [ref=e264]: Faol sprint
+        - article [ref=e267]:
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - heading "MVP" [level=3] [ref=e270]
+              - paragraph [ref=e271]: Backend, AI modul, dashboard va real signal logikasi ulanadi.
+            - generic [ref=e272]: Keyingi fokus
+        - article [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - heading "Launch" [level=3] [ref=e278]
+              - paragraph [ref=e279]: Deploy, analytics, feedback va iteratsiya bilan bozorga chiqadi.
+            - generic [ref=e280]: Rejada
+    - generic [ref=e284]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - paragraph [ref=e287]: 05 / Amalga oshirish rejasi
+          - heading "Bosqich, stack va AI vositalari" [level=2] [ref=e288]
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: "To'g'risini aytganda, ko'p sayt shu joyda yiqiladi: gap bor, plan yo'q."
+            - paragraph [ref=e291]: Bu blok discovery dan launchgacha bo'lgan delivery konturini qisqa va o'qiladigan qiladi.
+        - generic [ref=e292]:
+          - article [ref=e293]:
+            - generic [ref=e294]: "01"
+            - generic [ref=e295]:
+              - heading "Discovery va scope" [level=3] [ref=e296]
+              - paragraph [ref=e297]: Muammo ko'lami, foydalanuvchi oqimlari va data manbalari yig'ilib, birinchi sprint chegarasi aniq belgilanadi.
+          - article [ref=e298]:
+            - generic [ref=e299]: "02"
+            - generic [ref=e300]:
+              - heading "Prototype va validatsiya" [level=3] [ref=e301]
+              - paragraph [ref=e302]: Maketi tez chiqarilib, asosiy ssenariylar test qilinadi va qaysi flow haqiqatan ishlashi tekshiriladi.
+          - article [ref=e303]:
+            - generic [ref=e304]: "03"
+            - generic [ref=e305]:
+              - heading "MVP qurish" [level=3] [ref=e306]
+              - paragraph [ref=e307]: React frontend, API qatlami va AI xizmatlari ulanib, asosiy use-case ishlaydigan holatga olib chiqiladi.
+          - article [ref=e308]:
+            - generic [ref=e309]: "04"
+            - generic [ref=e310]:
+              - heading "Launch va monitoring" [level=3] [ref=e311]
+              - paragraph [ref=e312]: Analytics, logs, feedback va keyingi iteratsiyalar bilan product barqarorlashadi.
+      - complementary [ref=e313]:
+        - paragraph [ref=e314]: Stack & AI tools
+        - generic [ref=e315]:
+          - article [ref=e316]:
+            - generic [ref=e317]: Frontend
+            - strong [ref=e318]: React, Vite, Motion-rich UI
+          - article [ref=e319]:
+            - generic [ref=e320]: Backend
+            - strong [ref=e321]: Node.js yoki FastAPI
+          - article [ref=e322]:
+            - generic [ref=e323]: AI Tools
+            - strong [ref=e324]: OpenAI API, prompt workflows, anomaly logic
+          - article [ref=e325]:
+            - generic [ref=e326]: Infra
+            - strong [ref=e327]: Supabase, Vercel, monitoring
+        - blockquote [ref=e328]: "\"Yaxshi landing faqat bezak emas. U product, jamoa va delivery mantiqini bir qarashda tushuntirishi kerak.\""
+  - contentinfo [ref=e329]:
+    - generic [ref=e330]:
+      - generic [ref=e331]:
+        - paragraph [ref=e332]: Bug Slayers
+        - paragraph [ref=e333]: SafeChain uchun product showcase. Nazorat, AI signal va operatsion flow bir sahifada jamlangan.
+      - navigation "Footer links" [ref=e334]:
+        - link "Telegram" [ref=e335] [cursor=pointer]:
+          - /url: https://t.me/
+        - link "LinkedIn" [ref=e336] [cursor=pointer]:
+          - /url: https://linkedin.com/
+        - link "GitHub" [ref=e337] [cursor=pointer]:
+          - /url: https://github.com/
+        - link "Demo" [ref=e338] [cursor=pointer]:
+          - /url: /demo
+      - generic [ref=e339]:
+        - generic [ref=e340]: Operational UX
+        - link "hello@bugslayers.uz" [ref=e341] [cursor=pointer]:
+          - /url: mailto:hello@bugslayers.uz

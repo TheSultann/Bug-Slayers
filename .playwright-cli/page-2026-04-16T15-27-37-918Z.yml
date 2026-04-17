@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bug Slayers SafeChain Platform" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]:
+          - strong [ref=e8]: Bug Slayers
+          - generic [ref=e9]: SafeChain Platform
+      - navigation "Asosiy navigatsiya" [ref=e10]:
+        - link "Muammo" [ref=e11] [cursor=pointer]:
+          - /url: /#muammo
+        - link "Jamoa" [ref=e12] [cursor=pointer]:
+          - /url: /#jamoa
+        - link "Nega biz" [ref=e13] [cursor=pointer]:
+          - /url: /#nega-biz
+        - link "Yo'l xaritasi" [ref=e14] [cursor=pointer]:
+          - /url: /#yol-xaritasi
+        - link "Reja" [ref=e15] [cursor=pointer]:
+          - /url: /#amalga-oshirish
+        - link "Demo" [ref=e16] [cursor=pointer]:
+          - /url: /demo
+      - link "Aloqa" [ref=e18] [cursor=pointer]:
+        - /url: mailto:hello@bugslayers.uz
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Demo center
+        - paragraph [ref=e25]: 06 / Product showcase
+        - heading "Investor, mentor yoki mijoz uchun tez ochiladigan premium demo markaz" [level=1] [ref=e26]
+        - paragraph [ref=e27]: "Bu sahifa video, prototip, AI preview va texnik ko'rinishni bitta joyda jamlaydi. Asosiy maqsad: product haqiqatan yashayapti degan hissi berish."
+      - article [ref=e28]:
+        - paragraph [ref=e29]: Snapshot
+        - heading "Bir sahifada productning fikri, tajribasi va texnik darajasi ko'rinadi" [level=2] [ref=e30]
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - generic [ref=e34]: Qisqa demo video va kontekst
+          - listitem [ref=e35]:
+            - generic [ref=e37]: Interaktiv prototipga tez o'tish
+          - listitem [ref=e38]:
+            - generic [ref=e40]: API va AI preview orqali texnik tayyorgarlik
+        - link "Prototipni ochish" [ref=e41] [cursor=pointer]:
+          - /url: https://stitch.withgoogle.com/projects/4022772081421735983
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: Demo video
+          - strong [ref=e48]: SafeChain overview
+        - generic [ref=e49]: Pitch, use-case va nazorat oqimini qisqa vaqt ichida ko'rsatadi
+      - iframe [ref=e51]:
+        - generic "Проигрыватель YouTube" [ref=f1e3]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - article [ref=e55]:
+          - paragraph [ref=e56]: 6.2 / Demo narrative
+          - heading "Demo nimani ko'rsatadi" [level=2] [ref=e57]
+          - paragraph [ref=e58]: Foydalanuvchi muammoni ko'radi, product signalni qanday ushlashini tushunadi va AI qatlam qayerda ishga tushishini bir necha daqiqada anglaydi.
+          - generic [ref=e59]:
+            - article [ref=e60]:
+              - paragraph [ref=e62]: Asosiy user flow va interface mantiqi bitta ko'rinishda jamlanadi.
+            - article [ref=e63]:
+              - paragraph [ref=e65]: AI signal, tahlil yoki tavsiya qay tarzda ishlashi qisqa ssenariy bilan ko'rsatiladi.
+            - article [ref=e66]:
+              - paragraph [ref=e68]: Product qayerga kengayishi va API ulanish nuqtalari aniq ko'rsatiladi.
+        - article [ref=e69]:
+          - paragraph [ref=e70]: API access
+          - heading "Texnik tayyorgarlikni ko'rsatadigan namunaviy endpoint" [level=2] [ref=e71]
+          - paragraph [ref=e72]: "API bloki landingni chuqurroq qiladi: bu faqat g'oya emas, keyingi integratsiya nuqtalari ham o'ylanganini ko'rsatadi."
+          - generic [ref=e73]:
+            - generic [ref=e74]: POST /api/v1/analyze
+            - generic [ref=e75]: "curl -X POST https://api.bugslayers.uz/api/v1/analyze \\ -H \"Authorization: Bearer YOUR_TOKEN\" \\ -H \"Content-Type: application/json\" \\ -d '{\"message\":\"Nazorat oqimidagi xavfni tahlil qil\"}'"
+      - complementary [ref=e76]:
+        - link "6.3 / Interactive concept Interaktiv prototipni ochib, flow hissini ko'rish Dizayn, ekran oqimi va product ritmini tez ko'rish uchun alohida prototip havolasi qoldirildi. U demo sahifani realroq qiladi. Prototype link" [ref=e77] [cursor=pointer]:
+          - /url: https://stitch.withgoogle.com/projects/4022772081421735983
+          - paragraph [ref=e78]: 6.3 / Interactive concept
+          - heading "Interaktiv prototipni ochib, flow hissini ko'rish" [level=2] [ref=e79]
+          - paragraph [ref=e80]: Dizayn, ekran oqimi va product ritmini tez ko'rish uchun alohida prototip havolasi qoldirildi. U demo sahifani realroq qiladi.
+          - generic [ref=e81]: Prototype link
+        - article [ref=e82]:
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: AI preview
+            - strong [ref=e86]: Conversation layer
+          - generic [ref=e88]:
+            - generic [ref=e89]: Assalomu alaykum. SafeChain demo markaziga xush kelibsiz. Qaysi use-case bo'yicha ko'rmoqchisiz?
+            - generic [ref=e90]: Bu yechim nazorat organlari uchun ham foydali bo'ladimi?
+            - generic [ref=e91]: Ha. AI signal va audit trail orqali muammoni kech emas, operatsiyaning o'zida ko'rish mumkin bo'ladi.
+          - generic [ref=e92]:
+            - generic [ref=e93]: Savol yozing...
+            - button "Yuborish" [ref=e94] [cursor=pointer]
+  - contentinfo [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - paragraph [ref=e98]: Bug Slayers
+        - paragraph [ref=e99]: SafeChain uchun product showcase. Nazorat, AI signal va operatsion flow bir sahifada jamlangan.
+      - generic [ref=e100]:
+        - link "Telegram" [ref=e101] [cursor=pointer]:
+          - /url: https://t.me/
+        - link "LinkedIn" [ref=e102] [cursor=pointer]:
+          - /url: https://linkedin.com/
+        - link "GitHub" [ref=e103] [cursor=pointer]:
+          - /url: https://github.com/
+        - link "Demo" [ref=e104] [cursor=pointer]:
+          - /url: /demo

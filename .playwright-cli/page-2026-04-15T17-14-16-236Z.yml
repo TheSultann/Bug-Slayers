@@ -1,0 +1,269 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bug Slayers" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Bug Slayers
+      - navigation "Asosiy navigatsiya" [ref=e8]:
+        - link "Muammo" [ref=e9] [cursor=pointer]:
+          - /url: /#muammo
+        - link "Jamoa" [ref=e10] [cursor=pointer]:
+          - /url: /#jamoa
+        - link "Nega biz" [ref=e11] [cursor=pointer]:
+          - /url: /#nega-biz
+        - link "Yo'l xaritasi" [ref=e12] [cursor=pointer]:
+          - /url: /#yol-xaritasi
+        - link "Reja" [ref=e13] [cursor=pointer]:
+          - /url: /#amalga-oshirish
+        - link "Demo" [ref=e14] [cursor=pointer]:
+          - /url: /demo
+      - link "Bog'lanish" [ref=e16] [cursor=pointer]:
+        - /url: mailto:hello@bugslayers.uz
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Demo portal tayyorlanmoqda
+          - paragraph [ref=e23]: AI-FIRST PRODUCT SHOWCASE
+          - heading "Bug Slayers uchun zamonaviy, professional va ta'sirli solution showcase sayti" [level=1] [ref=e24]:
+            - text: Bug Slayers uchun zamonaviy, professional va ta'sirli
+            - generic [ref=e25]: solution showcase sayti
+          - paragraph [ref=e26]: AI yordamida murakkab jarayonlarni soddalashtiradigan product jamoa
+          - generic [ref=e27]:
+            - link "Demo sahifasini ko'rish" [ref=e28] [cursor=pointer]:
+              - /url: /demo
+            - link "Jamoani ko'rish" [ref=e29] [cursor=pointer]:
+              - /url: "#jamoa"
+        - generic [ref=e30]:
+          - paragraph [ref=e31]: Creative direction
+          - heading "Neural Onyx ruhidagi jonli product taqdimot" [level=2] [ref=e32]
+          - paragraph [ref=e33]: Qorong'i fon, ko'k aksent, shaffof qatlamlar va kuchli tipografiya orqali jamoa o'zini oddiy agency emas, product builder sifatida ko'rsatadi.
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: UI tone
+              - strong [ref=e37]: Premium dark
+            - generic [ref=e38]:
+              - generic [ref=e39]: Content
+              - strong [ref=e40]: Fake data
+            - generic [ref=e41]:
+              - generic [ref=e42]: Status
+              - strong [ref=e43]: Ready to replace
+            - generic [ref=e44]:
+              - generic [ref=e45]: Stack
+              - strong [ref=e46]: React + Vite
+      - generic [ref=e47]:
+        - article [ref=e48]:
+          - strong [ref=e49]: "04"
+          - generic [ref=e50]: Asosiy yo'nalish
+          - paragraph [ref=e51]: AI, product, UX, integratsiya
+        - article [ref=e52]:
+          - strong [ref=e53]: 06+
+          - generic [ref=e54]: Fake ekspert
+          - paragraph [ref=e55]: Tez to'ldiriladigan jamoa profillari
+        - article [ref=e56]:
+          - strong [ref=e57]: 14 kun
+          - generic [ref=e58]: Prototype sprint
+          - paragraph [ref=e59]: G'oyadan interaktiv namoyishgacha
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: 01 / Muammo - Yechim
+        - heading "Muammoni aniq ko'rsatib, yechimni vizual isbotlaymiz" [level=2] [ref=e64]
+        - paragraph [ref=e65]: Taqdimot kuchli bo'lishi uchun faqat chiroyli sahifa yetmaydi. Muammo va natija orasidagi farq ko'rinishi kerak.
+      - generic [ref=e66]:
+        - article [ref=e67]:
+          - generic [ref=e68]: Muammo
+          - heading "Eski jarayon, sekin qaror, bo'laklangan tizim" [level=3] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - generic [ref=e73]: Qo'lda ishlov berish sabab vaqt va resurs yo'qotiladi.
+            - listitem [ref=e74]:
+              - generic [ref=e76]: Ma'lumotlar turli joyda saqlanadi va qaror qabul qilish sekinlashadi.
+            - listitem [ref=e77]:
+              - generic [ref=e79]: Yangi xizmat qo'shish yoki productni kengaytirish qimmatga tushadi.
+        - article [ref=e80]:
+          - generic [ref=e81]: Yechim
+          - heading "AI-first platforma va yagona ishlash oqimi" [level=3] [ref=e82]
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - generic [ref=e86]: Takroriy vazifalarni avtomatlashtiradigan aqlli workflow qatlamlari.
+            - listitem [ref=e87]:
+              - generic [ref=e89]: Real vaqt kuzatuvi, tavsiyalar va tezkor dashboardlar.
+            - listitem [ref=e90]:
+              - generic [ref=e92]: MVPdan launchgacha moslashadigan modul arxitektura.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - paragraph [ref=e96]: 02 / Jamoa
+        - heading "Rollar, ko'nikmalar, texnologiyalar va havolalar" [level=2] [ref=e97]
+        - paragraph [ref=e98]: Hozircha ma'lumotlar fake. Keyin real ism, rol, skill va linklar bilan almashtiriladi.
+      - generic [ref=e99]:
+        - article [ref=e100]:
+          - img "Nodir Karimov" [ref=e102]
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - heading "Nodir Karimov" [level=3] [ref=e106]
+                - paragraph [ref=e107]: Product Engineer
+              - generic [ref=e108]: Fake profile
+            - paragraph [ref=e109]: Frontend va backendni birlashtirib, foydalanuvchi uchun ishlaydigan product oqimini quradi.
+            - generic [ref=e110]:
+              - generic [ref=e111]: React
+              - generic [ref=e112]: Node.js
+              - generic [ref=e113]: System Design
+            - generic [ref=e114]:
+              - generic [ref=e115]: Stack
+              - strong [ref=e116]: React, Vite, Express, PostgreSQL
+            - generic [ref=e117]:
+              - link "GitHub" [ref=e118] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "LinkedIn" [ref=e119] [cursor=pointer]:
+                - /url: https://linkedin.com/
+        - article [ref=e120]:
+          - img "Madina Ergasheva" [ref=e122]
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - heading "Madina Ergasheva" [level=3] [ref=e126]
+                - paragraph [ref=e127]: AI Engineer
+              - generic [ref=e128]: Fake profile
+            - paragraph [ref=e129]: LLM, RAG va analitik pipeline orqali productga real biznes qiymat olib kiradi.
+            - generic [ref=e130]:
+              - generic [ref=e131]: OpenAI API
+              - generic [ref=e132]: Python
+              - generic [ref=e133]: Prompt Design
+            - generic [ref=e134]:
+              - generic [ref=e135]: Stack
+              - strong [ref=e136]: Python, FastAPI, LangChain, Vector DB
+            - generic [ref=e137]:
+              - link "LinkedIn" [ref=e138] [cursor=pointer]:
+                - /url: https://linkedin.com/
+              - link "Behance" [ref=e139] [cursor=pointer]:
+                - /url: https://behance.net/
+        - article [ref=e140]:
+          - img "Javohir Soliyev" [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - heading "Javohir Soliyev" [level=3] [ref=e146]
+                - paragraph [ref=e147]: UX Strategist
+              - generic [ref=e148]: Fake profile
+            - paragraph [ref=e149]: Murakkab funksiyani tez tushuniladigan interfeysga aylantiradi va demo ta'sirini kuchaytiradi.
+            - generic [ref=e150]:
+              - generic [ref=e151]: Figma
+              - generic [ref=e152]: UX Research
+              - generic [ref=e153]: Prototype
+            - generic [ref=e154]:
+              - generic [ref=e155]: Stack
+              - strong [ref=e156]: Figma, Design Systems, Motion, Testing
+            - generic [ref=e157]:
+              - link "Dribbble" [ref=e158] [cursor=pointer]:
+                - /url: https://dribbble.com/
+              - link "Telegram" [ref=e159] [cursor=pointer]:
+                - /url: https://t.me/
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - paragraph [ref=e163]: 03 / Nima uchun jamoa bu muammoni hal qila oladi
+        - heading "Bir-birini to'ldiradigan kuchli kombinatsiya" [level=2] [ref=e164]
+      - generic [ref=e165]:
+        - article [ref=e166]:
+          - paragraph [ref=e167]: Capability
+          - heading "Muammoni product darajasida ajratamiz" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Faqat dizayn yoki kod bilan cheklanmaymiz. Muammo, foydalanuvchi va biznes oqimini bitta chiziqda ko'ramiz.
+        - article [ref=e170]:
+          - paragraph [ref=e171]: Capability
+          - heading "AI + UX + Engineering bir jamoada" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Hand-off kam bo'ladi. Shu sabab prototip tez chiqadi va mantiq yo'qolmaydi.
+        - article [ref=e174]:
+          - paragraph [ref=e175]: Capability
+          - heading "Tez prototiplash" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Stitch, Figma va React asosida g'oyani tez ko'rsatamiz.
+        - article [ref=e178]:
+          - paragraph [ref=e179]: Capability
+          - heading "Launchgacha ownership" [level=3] [ref=e180]
+          - paragraph [ref=e181]: Demo, MVP, integratsiya va monitoring ketma-ket reja bilan yuradi.
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - paragraph [ref=e185]: 04 / Yo'l xaritasi
+        - heading "Idea - Prototype - MVP - Launched" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Yo'l xaritasi demo uchun ham muhim. U jamoaning fikri emas, ishlash tizimi borligini ko'rsatadi.
+      - generic [ref=e188]:
+        - article [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - heading "Idea" [level=3] [ref=e192]
+              - paragraph [ref=e193]: Muammo, foydalanuvchi va qiymat taklifi aniqlandi.
+            - generic [ref=e194]: Tugallangan
+        - article [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - heading "Prototype" [level=3] [ref=e200]
+              - paragraph [ref=e201]: Asosiy oqimlar va vizual sahifalar tayyorlanmoqda.
+            - generic [ref=e202]: Jarayonda
+        - article [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "MVP" [level=3] [ref=e208]
+              - paragraph [ref=e209]: Backend, AI modul va dashboard integratsiyasi kiritiladi.
+            - generic [ref=e210]: Keyingi bosqich
+        - article [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - heading "Launched" [level=3] [ref=e216]
+              - paragraph [ref=e217]: Deploy, analytics va real foydalanuvchi feedback bilan ishga tushadi.
+            - generic [ref=e218]: Rejada
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - paragraph [ref=e225]: 05 / Amalga oshirish rejasi
+          - heading "Bosqichlar, texnologiyalar va AI vositalari" [level=2] [ref=e226]
+          - paragraph [ref=e227]: Taqdimot faqat "biz qilamiz" demasligi kerak. Qanday qilish aniq yozilishi shart. Aks holda ishonch past bo'ladi.
+        - generic [ref=e228]:
+          - article [ref=e229]:
+            - generic [ref=e230]: "01"
+            - generic [ref=e231]:
+              - heading "Discovery va scope" [level=3] [ref=e232]
+              - paragraph [ref=e233]: Muammo hajmi, user flow va data manbalarini yig'ib, birinchi sprint scope belgilanadi.
+          - article [ref=e234]:
+            - generic [ref=e235]: "02"
+            - generic [ref=e236]:
+              - heading "Prototype va test" [level=3] [ref=e237]
+              - paragraph [ref=e238]: "Stitch yoki Figma maketi asosida tezkor UI chiqadi, foydalanuvchi ssenariylari sinovdan o`tadi."
+          - article [ref=e239]:
+            - generic [ref=e240]: "03"
+            - generic [ref=e241]:
+              - heading "MVP qurish" [level=3] [ref=e242]
+              - paragraph [ref=e243]: React frontend, API qatlami va AI xizmatlari ulanib, asosiy use-case ishga tushiriladi.
+          - article [ref=e244]:
+            - generic [ref=e245]: "04"
+            - generic [ref=e246]:
+              - heading "Launch va monitoring" [level=3] [ref=e247]
+              - paragraph [ref=e248]: Analytics, logs, feedback va iteratsiyalar bilan product barqarorlashadi.
+      - complementary [ref=e249]:
+        - paragraph [ref=e250]: Stack & AI tools
+        - generic [ref=e251]:
+          - article [ref=e252]:
+            - generic [ref=e253]: Frontend
+            - strong [ref=e254]: React, Vite, CSS Variables
+          - article [ref=e255]:
+            - generic [ref=e256]: Backend
+            - strong [ref=e257]: Node.js yoki FastAPI
+          - article [ref=e258]:
+            - generic [ref=e259]: AI Tools
+            - strong [ref=e260]: OpenAI API, RAG, Prompt workflows
+          - article [ref=e261]:
+            - generic [ref=e262]: Infra
+            - strong [ref=e263]: Supabase, Vercel, monitoring
+        - blockquote [ref=e264]: "\"Demo sahifasi, chatbot preview va API access bloklari jamoaning tayyor fikr bilan kelganini ko'rsatadi.\""
+  - contentinfo [ref=e265]:
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - paragraph [ref=e268]: Bug Slayers
+        - paragraph [ref=e269]: Vaqtinchalik demo tarkib. Keyin real kontent bilan almashtiriladi.
+      - generic [ref=e270]:
+        - link "Telegram" [ref=e271] [cursor=pointer]:
+          - /url: https://t.me/
+        - link "LinkedIn" [ref=e272] [cursor=pointer]:
+          - /url: https://linkedin.com/
+        - link "GitHub" [ref=e273] [cursor=pointer]:
+          - /url: https://github.com/
+        - link "Demo" [ref=e274] [cursor=pointer]:
+          - /url: /demo
