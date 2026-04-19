@@ -129,38 +129,6 @@ export default function DemoPage() {
               </div>
             </article>
 
-            <article className="panel detail-card">
-              <SectionHeading
-                eyebrow="API access"
-                title="Texnik tayyorgarlikni ko&apos;rsatadigan namunaviy endpoint"
-                paragraphs={[
-                  "API bloki landingni chuqurroq qiladi: bu faqat g'oya emas, keyingi integratsiya nuqtalari ham o'ylanganini ko'rsatadi.",
-                ]}
-              />
-              <div className="code-card">
-                <span className="code-card__label">POST /api/v1/analyze</span>
-                <pre>{`curl -X POST https://api.bugslayers.uz/api/v1/analyze \\
-  -H "Authorization: Bearer YOUR_TOKEN" \\
-  -H "Content-Type: application/json" \\
-  -d '{"message":"Nazorat oqimidagi xavfni tahlil qil"}'`}</pre>
-              </div>
-            </article>
-          </div>
-
-          <aside className="demo-grid__side">
-            <a className="panel prototype-card" href={siteMeta.prototypeUrl}>
-              <p className="prototype-card__eyebrow">6.3 / Interactive concept</p>
-              <h2>Interaktiv prototipni ochib, flow hissini ko&apos;rish</h2>
-              <CopyStack
-                className="prototype-card__copy"
-                paragraphs={[
-                  "Dizayn, ekran oqimi va product ritmini tez ko'rish uchun alohida prototip havolasi qoldirildi.",
-                  "U demo sahifani realroq qiladi va pitch paytida keraksiz gapni kamaytiradi.",
-                ]}
-              />
-              <span>Prototype link</span>
-            </a>
-
             <article className="panel chatbot-card">
               <div className="chatbot-card__header">
                 <div>
@@ -186,6 +154,21 @@ export default function DemoPage() {
                 <button type="button">Yuborish</button>
               </div>
             </article>
+          </div>
+
+          <aside className="demo-grid__side">
+            <a className="panel prototype-card" href={siteMeta.prototypeUrl}>
+              <p className="prototype-card__eyebrow">6.3 / Interactive concept</p>
+              <h2>Interaktiv prototipni ochib, flow hissini ko&apos;rish</h2>
+              <CopyStack
+                className="prototype-card__copy"
+                paragraphs={[
+                  "Dizayn, ekran oqimi va product ritmini tez ko'rish uchun alohida prototip havolasi qoldirildi.",
+                  "U demo sahifani realroq qiladi va pitch paytida keraksiz gapni kamaytiradi.",
+                ]}
+              />
+              <span>Prototype link</span>
+            </a>
 
             <Link className="panel demo-linkback" to="/">
               <p className="prototype-card__eyebrow">Back to overview</p>

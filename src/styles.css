@@ -828,13 +828,20 @@ p {
   text-transform: uppercase;
 }
 
-.hero h1,
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 4.5vw, 4.2rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  max-width: 13ch;
+}
+
 .demo-hero h1 {
   margin: 0;
-  font-size: clamp(3.6rem, 5.8vw, 5.4rem);
-  line-height: 0.94;
-  letter-spacing: -0.075em;
-  max-width: 11ch;
+  font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  max-width: 20ch;
 }
 
 .hero h1 span,
@@ -2000,6 +2007,43 @@ p {
 
 }
 
+/* ============================================
+   DEMO PAGE TYPOGRAPHY OVERRIDES
+   Make text compact and beautiful
+   ============================================ */
+.demo-page p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.demo-page .section__heading h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  letter-spacing: -0.02em;
+}
+
+.demo-page .subsection h2,
+.demo-page .detail-card h2,
+.demo-page .prototype-card h2,
+.demo-page .demo-sidecard h2,
+.demo-page .demo-linkback h2 {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.demo-page .detail-card__item p,
+.demo-page .prototype-card__copy p {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.demo-hero__copy p {
+  font-size: 0.95rem;
+}
+
+.demo-page .copy-stack {
+  gap: 8px;
+}
+
 /* ========================================
    MOBILE: в‰¤ 767px
    Full mobile treatment вЂ” priority breakpoint.
@@ -2103,8 +2147,8 @@ p {
   .hero h1,
   .demo-hero h1 {
     max-width: none;
-    font-size: clamp(2.2rem, 10vw, 3.4rem);
-    line-height: 1.05;
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
+    line-height: 1.1;
   }
 
   .hero h1 span,
@@ -2219,7 +2263,7 @@ p {
   .section__heading--center h2 {
     max-width: none;
     margin-inline: 0;
-    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
   }
 
   /* --- Card headings: scale down --- */
@@ -2430,12 +2474,13 @@ p {
 
   .hero h1,
   .demo-hero h1 {
-    font-size: clamp(2rem, 11vw, 2.8rem);
+    font-size: clamp(1.6rem, 7.5vw, 2.1rem);
+    line-height: 1.1;
   }
 
   .section__heading h2,
   .section__heading--center h2 {
-    font-size: clamp(1.6rem, 7vw, 2.2rem);
+    font-size: clamp(1.4rem, 6vw, 1.8rem);
   }
 
   .hero-card h2,

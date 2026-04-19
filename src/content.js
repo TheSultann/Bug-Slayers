@@ -63,27 +63,26 @@ export const problemVsSolution = {
 
 export const teamMembers = [
   {
-    name: 'Azizbek Rahmonov',
+    name: 'Otabekov Orifjon',
     role: 'Team Lead',
     badge: 'Strategy',
     bio: "Jamoaning texnik va produkt vizyonini boshqaradi. Loyiha arxitekturasi va asosiy qarorlarni belgilaydi.",
     skills: ['Leadership', 'System Design'],
     stack: 'Planning, Architecture',
     links: [
-      { label: 'GitHub', href: 'https://github.com/' },
-      { label: 'LinkedIn', href: 'https://linkedin.com/' },
+      { label: 'Telegram', href: 'https://t.me/otabekov_14' },
     ],
     image: '/logo2.png',
   },
   {
-    name: 'Sultan',
+    name: 'Otanazarov Sultan',
     role: 'Full Stack Engineer',
     badge: 'Build',
     bio: "Loyihaning arxitekturasi, frontend interfeysi va backend xizmatlarini to'liq integratsiya qiladi.",
     skills: ['React', 'Node.js', 'Database'],
     stack: 'Full Stack, Core Logic',
     links: [
-      { label: 'LinkedIn', href: 'https://linkedin.com/' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/s7ltan' },
       { label: 'GitHub', href: 'https://github.com/TheSultann' },
     ],
     image: '/logo2.png',
@@ -96,21 +95,19 @@ export const teamMembers = [
     skills: ['Management', 'Tech Writing'],
     stack: 'Agile, Documentation',
     links: [
-      { label: 'LinkedIn', href: 'https://linkedin.com/' },
-      { label: 'Portfolio', href: 'https://example.com/' },
+      { label: 'Telegram', href: 'https://t.me/Sevinchoy_ALIMOVA' },
     ],
     image: '/logo2.png',
   },
   {
-    name: 'Operations Lead',
-    role: 'Delivery & Support',
-    badge: 'Ops',
-    bio: "Jarayonlar va operatsion tartibni ushlab turadi.",
+    name: 'Baxtiyorova Dilfuza',
+    role: 'Business Analyst',
+    badge: 'BA',
+    bio: "Mijoz ehtiyojlarini texnik yechimga aylantirish, biznes maqsadlarining ijrosini nazorat qilishga mas'ul.",
     skills: ['Coordination', 'Support'],
     stack: 'Communication, QA',
     links: [
-      { label: 'Telegram', href: 'https://t.me/' },
-      { label: 'Portfolio', href: 'https://example.com/' },
+      { label: 'Telegram', href: 'https://t.me/dilfuzaa_24' },
     ],
     image: '/logo2.png',
   },
@@ -224,8 +221,5 @@ export const chatbotSamples = [
 ];
 
 export const footerLinks = [
-  { label: 'Telegram', href: 'https://t.me/' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/' },
-  { label: 'GitHub', href: 'https://github.com/' },
-  { label: 'Demo', href: '/demo' },
+  { label: 'Telegram', href: 'https://t.me/mcp' },
 ];
