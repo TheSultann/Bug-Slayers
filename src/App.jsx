@@ -123,7 +123,7 @@ function SiteHeader() {
             <img src="/logo2.png" alt="Bug Slayers Logo" className="brand__logo" />
             <span className="brand__text">
               <strong>{siteMeta.name}</strong>
-              <small>SafeChain Platform</small>
+              <small>SafeChain tizimi</small>
             </span>
           </Link>
 
@@ -197,7 +197,7 @@ function SiteHeader() {
                 <strong className="mobile-nav__title">{siteMeta.name}</strong>
               </div>
             </div>
-            <p className="mobile-nav__subtitle">SafeChain nazorat platformasi</p>
+            <p className="mobile-nav__subtitle">SafeChain nazorat tizimi</p>
           </div>
 
           {/* Divider */}
@@ -295,11 +295,11 @@ function MobileQuickBar() {
       <div className="mobile-quickbar__inner">
         {isDemoPage ? (
           <>
-            <Link className="button mobile-quickbar__button" to="/">
-              Bosh sahifa
-            </Link>
-            <a className="button button--secondary mobile-quickbar__button" href={siteMeta.prototypeUrl}>
-              Prototip
+            <a className="button mobile-quickbar__button" href="#pos">
+              Kassa
+            </a>
+            <a className="button button--secondary mobile-quickbar__button" href="#signals">
+              Signallar
             </a>
           </>
         ) : (
@@ -327,7 +327,7 @@ function SiteFooter() {
         <div className="footer__summary">
           <p className="footer__brand">{siteMeta.name}</p>
           <p className="footer__copy">
-            SafeChain uchun product showcase. Nazorat, AI signal va operatsion flow bir sahifada jamlangan.
+            SafeChain uchun mahsulot vitrini. Nazorat, AI signali va operatsion oqim bitta sahifaga jamlangan.
           </p>
         </div>
 
@@ -346,7 +346,7 @@ function SiteFooter() {
         </nav>
 
         <div className="footer__meta">
-          <span className="footer__caption">Operational UX</span>
+          <span className="footer__caption">Operatsion interfeys</span>
           <a className="footer__mail" href={`mailto:${siteMeta.contactEmail}`}>
             {siteMeta.contactEmail}
           </a>
