@@ -4,7 +4,7 @@ export const siteMeta = {
     "SafeChain orqali importdan kassagacha bo'lgan nazorat bir panelda.",
   contactEmail: 'hello@bugslayers.uz',
   prototypeUrl: 'https://stitch.withgoogle.com/projects/4022772081421735983',
-  videoEmbedUrl: 'https://www.youtube.com/embed/aqz-KE-bpKQ?rel=0',
+  videoEmbedUrl: 'https://www.youtube.com/embed/s1r_IwMNpDk?rel=0',
 };
 
 export const navItems = [
@@ -223,3 +223,4 @@ export const chatbotSamples = [
 export const footerLinks = [
   { label: 'Telegram', href: 'https://t.me/mcp' },
 ];
+
