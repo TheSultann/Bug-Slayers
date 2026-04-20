@@ -847,21 +847,6 @@ export default function DemoPage() {
     );
   };
 
-  const handleReset = () => {
-    const nextState = createSeedState();
-    setState(nextState);
-    setSaleForm({
-      productId: nextState.products[0]?.id || '',
-      quantity: 1,
-      channel: DEFAULT_CHANNEL,
-    });
-    setFeedback({
-      tone: 'info',
-      title: 'Demo qayta tiklandi',
-      text: "Boshlang'ich ma'lumot qayta yuklandi. Ssenariyni yana sinab ko'ring.",
-    });
-  };
-
   const handleScenarioPick = (preset) => {
     setSaleForm(preset.values);
     setFeedback({
@@ -896,9 +881,9 @@ export default function DemoPage() {
               <a className="button" href="#pos">
                 Kassa oqimini ochish
               </a>
-              <button type="button" className="button button--secondary" onClick={handleReset}>
-                Demo ma'lumotini tiklash
-              </button>
+              <a className="button button--secondary" href="#demo-materials">
+                Videoni ko'rish
+              </a>
             </div>
 
             <div className="mvp-scenario-grid">

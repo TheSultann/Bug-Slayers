@@ -129,6 +129,9 @@ export default function HomePage() {
               <Link className="button" to="/demo">
                 Demo markaziga o&apos;tish
               </Link>
+              <Link className="button button--secondary" to="/demo#demo-materials">
+                Videoni ko&apos;rish
+              </Link>
               <a className="button button--secondary" href="#amalga-oshirish">
                 Rejani ko&apos;rish
               </a>

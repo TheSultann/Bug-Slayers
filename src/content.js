@@ -2,7 +2,7 @@ export const siteMeta = {
   name: 'Bug Slayers',
   tagline:
     "SafeChain orqali importdan kassagacha bo'lgan nazorat bir panelda.",
-  contactEmail: 'hello@bugslayers.uz',
+  contactTelegramUrl: 'https://t.me/otabekov_14',
   videoWatchUrl: 'https://youtu.be/YHStuarzC78',
   videoEmbedUrl: 'https://www.youtube.com/embed/YHStuarzC78?rel=0',
 };
@@ -221,6 +221,6 @@ export const chatbotSamples = [
 ];
 
 export const footerLinks = [
-  { label: 'Telegram', href: 'https://t.me/mcp' },
+  { label: 'Telegram', href: 'https://t.me/otabekov_14' },
 ];
 

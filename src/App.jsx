@@ -145,7 +145,12 @@ function SiteHeader() {
           </nav>
 
           <div className="topbar__actions">
-            <a className="button button--ghost" href={`mailto:${siteMeta.contactEmail}`}>
+            <a
+              className="button button--ghost"
+              href={siteMeta.contactTelegramUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
               Aloqa
             </a>
             <button
@@ -252,12 +257,17 @@ function SiteHeader() {
               </svg>
               Demo markazga o'tish
             </Link>
-            <a className="button button--secondary mobile-nav__cta-secondary" href={`mailto:${siteMeta.contactEmail}`}>
+            <a
+              className="button button--secondary mobile-nav__cta-secondary"
+              href={siteMeta.contactTelegramUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
+                <path d="M22 2L11 13"/>
+                <path d="M22 2L15 22L11 13L2 9L22 2Z"/>
               </svg>
-              {siteMeta.contactEmail}
+              Telegram
             </a>
           </div>
 
@@ -309,9 +319,11 @@ function MobileQuickBar() {
             </Link>
             <a
               className="button button--secondary mobile-quickbar__button"
-              href={`mailto:${siteMeta.contactEmail}`}
+              href={siteMeta.contactTelegramUrl}
+              target="_blank"
+              rel="noreferrer"
             >
-              Aloqa
+              Telegram
             </a>
           </>
         )}
@@ -346,9 +358,14 @@ function SiteFooter() {
         </nav>
 
         <div className="footer__meta">
-          <span className="footer__caption">Operatsion interfeys</span>
-          <a className="footer__mail" href={`mailto:${siteMeta.contactEmail}`}>
-            {siteMeta.contactEmail}
+          <span className="footer__caption">Telegram aloqa</span>
+          <a
+            className="footer__mail"
+            href={siteMeta.contactTelegramUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Telegram
           </a>
         </div>
       </div>
