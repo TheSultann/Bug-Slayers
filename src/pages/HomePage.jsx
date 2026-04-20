@@ -202,7 +202,7 @@ export default function HomePage() {
           <div className="reveal">
             <SectionHeading
               eyebrow="02 / Jamoa"
-              title="Core team"
+              title="Jamoa, rollar va texnologiya staki"
             />
           </div>
 
@@ -219,6 +219,17 @@ export default function HomePage() {
                   </div>
                   <p className="team-card__role">{member.role}</p>
                   <p className="team-card__bio">{member.bio}</p>
+                  <div className="team-card__stack">
+                    <span>Tech stack</span>
+                    <strong>{member.stack}</strong>
+                  </div>
+                  <div className="team-card__skills">
+                    {member.skills.map((skill) => (
+                      <span key={skill} className="team-card__skill">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                   <div className="team-card__links">
                     {member.links.map((item) => (
                       <a href={item.href} key={item.label} className="team-card__link">
@@ -268,7 +279,7 @@ export default function HomePage() {
           <div className="reveal">
             <SectionHeading
               eyebrow="04 / Yo'l xaritasi"
-              title="Idea dan launch gacha"
+              title="Idea / Prototype / MVP / Launched"
             />
           </div>
 

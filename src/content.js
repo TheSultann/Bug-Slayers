@@ -3,8 +3,8 @@ export const siteMeta = {
   tagline:
     "SafeChain orqali importdan kassagacha bo'lgan nazorat bir panelda.",
   contactEmail: 'hello@bugslayers.uz',
-  prototypeUrl: 'https://stitch.withgoogle.com/projects/4022772081421735983',
-  videoEmbedUrl: 'https://www.youtube.com/embed/s1r_IwMNpDk?rel=0',
+  videoWatchUrl: 'https://youtu.be/YHStuarzC78',
+  videoEmbedUrl: 'https://www.youtube.com/embed/YHStuarzC78?rel=0',
 };
 
 export const navItems = [
@@ -161,7 +161,7 @@ export const roadmap = [
     summary: 'Backend, AI modul va dashboard ulanadi.',
   },
   {
-    stage: 'Launch',
+    stage: 'Launched',
     status: 'Rejada',
     progress: 20,
     progressTone: 'early',

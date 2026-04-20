@@ -883,13 +883,13 @@ export default function DemoPage() {
           <div className="mvp-hero__intro">
             <span className="status-pill">
               <span className="status-pill__pulse" />
-              SafeChain MVP / Jonli nazorat oynasi
+              SafeChain demo markazi / video + MVP
             </span>
-            <p className="section__eyebrow">06 / Ishlaydigan mahsulot qatlami</p>
+            <p className="section__eyebrow">06 / Demo materiali va ishchi MVP</p>
             <h1>Savdo nazorati, risk signali va partiya boshqaruvi bitta oynada.</h1>
             <p className="mvp-hero__copy">
-              Bu sahifa endi oddiy ko'rsatma emas. Ssenariyni tanlaysiz, savdoni sinaysiz,
-              partiya qo'shasiz va SafeChain qanday javob berishini darhol ko'rasiz.
+              Bu sahifada talab qilingan demo materiallari ham bor, ishchi MVP ham bor. Avval
+              videoni ko'rasiz, keyin jonli nazorat oqimini shu yerning o'zida sinaysiz.
             </p>
 
             <div className="demo-hero__actions">
@@ -941,61 +941,114 @@ export default function DemoPage() {
             </div>
           </div>
 
-          <aside className="panel mvp-summary-card">
-            <div className="mvp-summary-card__top">
-              <span className={`mvp-badge mvp-badge--${complianceTone}`}>Qisqa holat</span>
-              <Link className="mvp-summary-card__link" to="/">
-                Pitchga qaytish
-              </Link>
-            </div>
-
-            <h2>{leadAlert ? leadAlert.title : 'Hozir tizim tinch ishlayapti'}</h2>
-            <p>
-              {leadAlert
-                ? leadAlert.recommendation
-                : "Jiddiy to'siq yo'q. Ro'yxat kuzatiladi va har bir savdo jurnalga yoziladi."}
-            </p>
-
-            <div className="mvp-scoreboard">
-              <div className="mvp-scoreboard__top">
-                <span>Nazorat holati</span>
-                <strong>{complianceScore}%</strong>
+          <aside className="mvp-hero__side">
+            <article className="panel mvp-summary-card">
+              <div className="mvp-summary-card__top">
+                <span className={`mvp-badge mvp-badge--${complianceTone}`}>Qisqa holat</span>
+                <Link className="mvp-summary-card__link" to="/">
+                  Pitchga qaytish
+                </Link>
               </div>
-              <div className="mvp-scoreboard__track" aria-hidden="true">
-                <span
-                  className={`mvp-scoreboard__fill mvp-scoreboard__fill--${complianceTone}`}
-                  style={{ width: `${complianceScore}%` }}
+
+              <h2>{leadAlert ? leadAlert.title : 'Hozir tizim tinch ishlayapti'}</h2>
+              <p>
+                {leadAlert
+                  ? leadAlert.recommendation
+                  : "Jiddiy to'siq yo'q. Ro'yxat kuzatiladi va har bir savdo jurnalga yoziladi."}
+              </p>
+
+              <div className="mvp-scoreboard">
+                <div className="mvp-scoreboard__top">
+                  <span>Nazorat holati</span>
+                  <strong>{complianceScore}%</strong>
+                </div>
+                <div className="mvp-scoreboard__track" aria-hidden="true">
+                  <span
+                    className={`mvp-scoreboard__fill mvp-scoreboard__fill--${complianceTone}`}
+                    style={{ width: `${complianceScore}%` }}
+                  />
+                </div>
+              </div>
+
+              <div className="mvp-summary-card__grid">
+                <div>
+                  <span>Faol qoldiq</span>
+                  <strong>{metrics.activeUnits}</strong>
+                </div>
+                <div>
+                  <span>O'tgan savdo</span>
+                  <strong>{metrics.safeSales}</strong>
+                </div>
+                <div>
+                  <span>So'nggi yangilanish</span>
+                  <strong>{formatDateTime(new Date().toISOString())}</strong>
+                </div>
+                <div>
+                  <span>Saqlash usuli</span>
+                  <strong>Brauzer ichida</strong>
+                </div>
+              </div>
+
+              <div className="mvp-summary-card__steps">
+                <h3>Tez sinash yo'li</h3>
+                <ol>
+                  <li>Sut 2.5% ni sotib ko'ring va blokni ko'ring.</li>
+                  <li>Mineral suv 1L ni soting va xavfsiz savdoni ko'ring.</li>
+                  <li>Yangi partiya qo'shing va ro'yxatda kuzating.</li>
+                </ol>
+              </div>
+            </article>
+
+            <article className="panel video-frame mvp-demo-card" id="demo-materials">
+              <div className="mvp-demo-card__intro">
+                <div>
+                  <p className="section__eyebrow">6.1 / Demo-video</p>
+                  <h2>SafeChain demo videosi</h2>
+                </div>
+                <a
+                  className="button button--secondary mvp-inline-button mvp-demo-card__button"
+                  href={siteMeta.videoWatchUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  YouTube&apos;da ochish
+                </a>
+              </div>
+
+              <p className="mvp-demo-card__summary">
+                1-5 daqiqalik walkthrough ichida muammo, yechim va SafeChain savdo nuqtasida
+                qanday ishlashi qisqa ko&apos;rinishda beriladi.
+              </p>
+
+              <div className="video-frame__embed">
+                <iframe
+                  src={siteMeta.videoEmbedUrl}
+                  title="SafeChain demo video"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
                 />
               </div>
-            </div>
 
-            <div className="mvp-summary-card__grid">
-              <div>
-                <span>Faol qoldiq</span>
-                <strong>{metrics.activeUnits}</strong>
+              <div className="mvp-demo-card__details">
+                <span className="mvp-badge mvp-badge--info">6.2 / Video ichida</span>
+                <ul className="list list--compact mvp-demo-card__list">
+                  <li>
+                    <span className="list__bullet list__bullet--solution" />
+                    <span>Muammo va yechim nima ekanini tez tushuntiradi.</span>
+                  </li>
+                  <li>
+                    <span className="list__bullet list__bullet--solution" />
+                    <span>SafeChain savdo nuqtasida qanday ishlashini ko'rsatadi.</span>
+                  </li>
+                  <li>
+                    <span className="list__bullet list__bullet--solution" />
+                    <span>Pitch paytida mahsulotni gap bilan emas, ko'rinish bilan isbotlaydi.</span>
+                  </li>
+                </ul>
               </div>
-              <div>
-                <span>O'tgan savdo</span>
-                <strong>{metrics.safeSales}</strong>
-              </div>
-              <div>
-                <span>So'nggi yangilanish</span>
-                <strong>{formatDateTime(new Date().toISOString())}</strong>
-              </div>
-              <div>
-                <span>Saqlash usuli</span>
-                <strong>Brauzer ichida</strong>
-              </div>
-            </div>
-
-            <div className="mvp-summary-card__steps">
-              <h3>Tez sinash yo'li</h3>
-              <ol>
-                <li>Sut 2.5% ni sotib ko'ring va blokni ko'ring.</li>
-                <li>Mineral suv 1L ni soting va xavfsiz savdoni ko'ring.</li>
-                <li>Yangi partiya qo'shing va ro'yxatda kuzating.</li>
-              </ol>
-            </div>
+            </article>
           </aside>
         </div>
       </section>
@@ -1006,7 +1059,7 @@ export default function DemoPage() {
             <article className="panel mvp-module" id="pos">
               <div className="mvp-module__heading">
                 <div>
-                  <p className="section__eyebrow">6.1 / Kassa sinovi</p>
+                  <p className="section__eyebrow">6.4 / Kassa sinovi</p>
                   <h2>Kassa nazorati</h2>
                   <p className="mvp-module__copy">
                     Tayyor ssenariyni tanlang yoki SKU ni qo'lda belgilang. Savdo to'lovdan oldin
@@ -1129,7 +1182,7 @@ export default function DemoPage() {
             <article className="panel mvp-module" id="inventory">
               <div className="mvp-module__heading">
                 <div>
-                  <p className="section__eyebrow">6.2 / Kiritish va ro'yxat</p>
+                  <p className="section__eyebrow">6.5 / Kiritish va ro'yxat</p>
                   <h2>Yangi partiya qo'shing va holatini boshqaring</h2>
                   <p className="mvp-module__copy">
                     Bu qism tez ishlashi uchun sodda qilingan: partiya yaratasiz, keyin pastdagi
@@ -1304,7 +1357,7 @@ export default function DemoPage() {
             <article className="panel mvp-module" id="signals">
               <div className="mvp-module__heading">
                 <div>
-                  <p className="section__eyebrow">6.3 / Xavf signallari</p>
+                  <p className="section__eyebrow">6.6 / Xavf signallari</p>
                   <h2>Signal navbati</h2>
                   <p className="mvp-module__copy">
                     Jiddiy holatlar tepada turadi. Signal hozirgi ro'yxat va savdo amallaridan
@@ -1329,7 +1382,7 @@ export default function DemoPage() {
             <article className="panel mvp-module">
               <div className="mvp-module__heading">
                 <div>
-                  <p className="section__eyebrow">6.4 / Amallar jurnali</p>
+                  <p className="section__eyebrow">6.7 / Amallar jurnali</p>
                   <h2>So'nggi amallar</h2>
                   <p className="mvp-module__copy">
                     Har bir kiritish, savdo, ochish va bloklash demo uchun alohida yozib boriladi.
